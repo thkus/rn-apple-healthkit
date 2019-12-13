@@ -84,7 +84,7 @@
     }
     
     // workouts
-    if ([@"MindfulSession" isEqualToString: key]) {
+    if ([@"Workout" isEqualToString: key]) {
         return [HKObjectType workoutType];
     }
     
